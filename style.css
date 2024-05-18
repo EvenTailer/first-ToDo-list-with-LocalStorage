@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-body {
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 30px;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoImg{
+    margin:30px 0 ;
+}
+.nameThisSite{
+    text-align: center;
+    margin: 30px 0;
+
+}
+h1{
+    font-family: "Jersey 25";
+  font-weight: 400;
+  font-style: normal;
+}
+.textWriterBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.btnAdd {
+    width: 60px;
+    background-color: #E1A0FF;
+    border:none;
+    height: 40px;
+    border-radius: 10%;
+    margin: 5px;
+    color: #fff;
+    font-weight: 200;
+    font-size: large;
+    cursor: pointer;
+}
+.writeText{
+    border: none;
+    background-color: #f3e6f2;
+    height: 40px;
+    border-radius: 20px;
+}
+.writeText:focus {
+    outline: none;
+    text-align: center;
+    font-weight: 400;
+    font-style:inherit;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.task{
+    display: inline-block;
+    height: 30px;
+    width: 50%;
+    background-color: #e5f0f3;
+    text-align: center;
+    
+    border-radius: 20px;
+    
+}
+.imgDel,.imgDid{
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+}
+.didIt{
+    background-color: #3f3e3e;
+    text-decoration: line-through;
+
+}
